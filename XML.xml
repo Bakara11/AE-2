@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<biblioteca xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:noNamespaceSchemaLocation= "XSD.xsd">
+	<libros>
+		<libro Id="L0001" tipo_clase="novela" paginas="680">
+			<titulo>Dune</titulo>
+			<indice>Capítulos</indice>
+			<sinopsis>Arrakis y gusanos</sinopsis>
+			<capitulo paginas="50">Capitulo 1
+				<contenido info="L0001capitulo1.html">El comienzo</contenido>
+			</capitulo>
+			<capitulo paginas="33">Capitulo 2
+				<contenido info="L0001capitulo2.html">Continúa…</contenido>
+			</capitulo>
+			<capitulo paginas="45">Capitulo 3
+				<contenido info="L0001capitulo3.html">Continúa…</contenido>
+			</capitulo>
+		</libro>
+		<libro Id="L0002" tipo_clase="didactico" paginas="340">
+			<titulo>Una breve historia de casi todo</titulo>
+			<indice>Capítulos</indice>
+			<sinopsis>Divulgación científica</sinopsis>
+			<capitulo paginas="25">Capitulo 1
+				<contenido info="L0002capitulo1.html">El comienzo</contenido>
+			</capitulo>
+			<capitulo paginas="33">Capitulo 2
+				<contenido info="L0002capitulo2.html">Continúa…</contenido>
+			</capitulo>
+			<capitulo paginas="29">Capitulo 3
+				<contenido info="L0002capitulo3.html">Continúa…</contenido>
+			</capitulo>
+		</libro>
+	</libros>
+	<periodicos>
+		<periodico Id="P0001" tipo_clase="nacional" fecha="20/05/22">
+			<indice>Contenido</indice>
+			<seccionp tipo="economia">
+				<articulo autor="Mack Z.">
+					<contenido info=" P0001sec1art1.html">Artículo 1</contenido>
+				</articulo>
+				<articulo autor="Steve J.">
+					<contenido info=" P0001sec1art2.html"> Artículo 2</contenido>
+				</articulo>
+			</seccionp>
+			<seccionp tipo="opinion">
+				<articulo autor="Arturo P.">
+					<contenido info=" P0001sec2art1.html">Artículo 1</contenido>
+				</articulo>
+				<articulo autor="Pedro S.">
+					<contenido info=" P0001sec2art2.html">Artículo 2</contenido>
+				</articulo>
+			</seccionp>
+		</periodico>
+		<periodico Id="P0002" tipo_clase="internacional" fecha="21/05/22">
+			<indice>Contenido</indice>
+			<seccionp tipo="deportes">
+				<articulo autor="Cristiano R.">
+					<contenido info="P0002sec1art1.html">Artículo 1</contenido>
+				</articulo>
+				<articulo autor="Andrés I.">
+					<contenido info=" P0002sec1art2.html"> Artículo 2</contenido>
+				</articulo>
+			</seccionp>
+			<seccionp tipo="nacional">
+				<articulo autor="Belén S.">
+					<contenido info=" P0002sec2art1.html">Artículo 1</contenido>
+				</articulo>
+				<articulo autor="Antonio M.">
+					<contenido info=" P0002sec2art2.html">Artículo 2</contenido>
+				</articulo>
+			</seccionp>
+		</periodico>
+	</periodicos>
+	<revistas>
+		<revista Id="R0001" tipo_clase="informatica" paginas="210">
+			<titulo>PC hoy</titulo>
+			<numero>1</numero>
+			<indice>Contenido</indice>
+			<seccionr paginas="20">
+				<contenido info=" R0001parte1.html">Artículo 1</contenido>
+			</seccionr>
+			<seccionr paginas="15">
+				<contenido info=" R0001parte2.html"> Artículo 2</contenido>
+			</seccionr>
+		</revista>
+		<revista Id="R0002" tipo_clase="coches" paginas="180">
+			<titulo>F1</titulo>
+			<numero>6</numero>
+			<indice>Contenido</indice>
+			<seccionr paginas="22">
+				<contenido info=" R0002parte1.html">Artículo 1</contenido>
+			</seccionr>
+			<seccionr paginas="5">
+				<contenido info=" R0002parte2.html"> Artículo 2</contenido>
+			</seccionr>
+		</revista>
+		<revista Id="R0003" tipo_clase="corazon" paginas="155">
+			<titulo>Lecturas</titulo>
+			<numero>3</numero>
+			<indice>Contenido</indice>
+			<seccionr paginas="12">
+				<contenido info=" R0003parte1.html">Artículo 1</contenido>
+			</seccionr>
+			<seccionr paginas="17">
+				<contenido info=" R0003parte2.html"> Artículo 2</contenido>
+			</seccionr>
+		</revista>
+	</revistas>
+</biblioteca>
+
+
