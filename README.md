@@ -5,6 +5,12 @@ Crear un XML con el modelo de datos indicado en el enunciado.
 
 Elaborar un DTD que permita validar el documento XML.
 
+Requerimiento 2
+
+Elaborar un XSD que permita validar el documento XML.
+
+Validar el documento con alguna aplicación externa e incluir capturas de pantalla.
+
 Dado el siguiente enunciado:
 Vamos a elaborar una estructura de base de datos en XML que permita almacenar los datos de una biblioteca en la red con las siguientes características:
 
